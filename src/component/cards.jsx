@@ -10,7 +10,7 @@
 
 
 const Cards={
-    width:"100%",
+    maxWidth:"800px",
     heigth:"auto",
     display:"flex",
     flexWrap:"wrap",
@@ -18,10 +18,10 @@ const Cards={
     justifyContent:"center",
     alignItem:"center",
     borderRadius:"20px",
-    // border:"2px solid red",
     backgroundColor:"#d8d8d8ff",
     padding:"4px",
-    marginTop:"40px"
+    marginTop:"40px",
+    boxShadow: "rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px"
 
 }
 
