@@ -1,5 +1,6 @@
 import Cards from "./component/cards"
 import Heading from "./component/heading"
+import Whatsapp from "./component/whatsappicon"
 import './style.css';
 
 import dog1 from "./assets/images/dog1.jpg";
@@ -13,7 +14,7 @@ import cat4 from "./assets/images/cat4.jpg";
 
 function Card(props) {
   return (
-    <div style={{ display: "flex", flexDirection: "column", gap: "4px", padding: "4px", borderRadius: "12px",justifyContent:"center",alignItems:"center",backgroundColor:"white",boxShadow:" rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px" }}>
+    <div className="card">
       <img src={props.img} alt="images"></img>
       <p>{props.name}</p>
     </div>
@@ -70,6 +71,7 @@ return(
       })
     }
   </div>
+  <Whatsapp></Whatsapp>
     </>
 )
 }
