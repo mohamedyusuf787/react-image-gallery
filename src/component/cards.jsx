@@ -10,19 +10,19 @@
 
 
 const Cards={
-    maxWidth:"800px",
-    heigth:"auto",
-    display:"flex",
-    flexWrap:"wrap",
-    gap:"8px",
-    justifyContent:"center",
-    alignItem:"center",
-    borderRadius:"20px",
-    backgroundColor:"#d8d8d8ff",
-    padding:"4px",
-    marginTop:"40px",
-    boxShadow: "rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px"
-
-}
+  maxWidth: "800px",
+  height: "auto",
+  display: "flex",
+  flexWrap: "wrap",
+  gap: "8px",
+  justifyContent: "center",
+  alignItems: "center",
+  borderRadius: "20px",
+  backgroundColor: "#d8d8d8ff",
+  padding: "4px",
+  marginTop: "40px",
+  boxShadow:
+    "rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px",
+};
 
 export default Cards
